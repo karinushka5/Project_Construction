@@ -724,7 +724,7 @@ a:hover {
         margin-bottom: 10px;
     }
     .footer__bottom__container {
-        padding: 45px 20px 25px 15px;
+        padding: 45px 20px 25px 5px;
     }
 }
 @media only all and (max-width:525px) {
@@ -877,7 +877,7 @@ a:hover {
                 flex-direction: column;
     }
     .slick-slider {
-        left:91px;
+        left:120px;
     }
 }
 @media only all and (max-width:320px) {
