@@ -89,6 +89,18 @@ a:hover {
     padding-bottom: 30px;
 }
   }
+  @media only all and (max-width: 425px) {
+    .header__right {
+        width: 100px;
+    }
+    .header__container {
+        justify-content: normal;
+    }
+    .menu_list {right: 23%;}
+    .menu__btn {
+        right: 20px;
+    }
+  }
 @media only all and (max-width: 320px) {
     .main-block_body {
         padding: 145px 0 0px;
