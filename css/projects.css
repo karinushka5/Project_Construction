@@ -1,0 +1,105 @@
+
+
+/*     HEADER        */
+.menu_item:nth-child(3) {
+    border-bottom: none;
+}
+.menu_item:nth-child(4) {
+    border-bottom: 1px rgba(0, 0,0, 0.2) solid ;
+}
+
+/*  PROJECTS    */
+.comment__container,
+.partners__container {
+    padding-bottom: 70px;
+}
+.menu_list {
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+}
+.projects__title {
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #000000;
+    padding: 70px 0 120px;
+    text-align: center;
+}
+.container {
+    padding: 0;
+}
+.row {
+    margin: 30px 0;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+.row:last-child {
+    margin-bottom: 0;
+}
+a:hover {
+    color: #ffff;
+    text-decoration: none;
+}
+
+/*               АДАПТАЦИЯ     */
+@media (min-width: 768px) {
+.col-md-4 {
+    -ms-flex: 0 0 50%;
+      -webkit-box-flex: 0;
+            flex: 0 0 50%;
+      max-width: 100%;
+}}
+  @media only all and (max-width: 768px) {
+  .col-md-4 {
+      -ms-flex: 0 0 50%;
+      -webkit-box-flex: 0;
+              flex: 0 0 50%;
+      max-width: 50%;
+  }
+  .projects__title {
+    font-size: 46px;
+    padding: 50px 0 30px;
+}
+}
+  
+  @media only all and (max-width: 500px) {
+  .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 0;
+  }
+  .row:last-child {
+    margin-top: 0;
+  }
+  .col-md-4 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+    max-width: 100%;
+    padding: 15px;
+}
+.comment__container,
+.partners__container {
+    padding-bottom: 30px;
+}
+  }
+@media only all and (max-width: 320px) {
+    .main-block_body {
+        padding: 145px 0 0px;
+    }
+    .main-block_title {
+        font-size: 62px;
+    }
+    .main-block_title {
+        top: -60px;
+    }
+    .projects__title {
+        padding: 50px 0 10px;
+    }
+}

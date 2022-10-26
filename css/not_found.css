@@ -1,0 +1,56 @@
+
+/* NOT_Found */
+.not-found {
+    background-color: #26292b;
+    padding: 240px 0;
+}
+.not-found__number {
+    font-size: 267px;
+    text-transform: uppercase;
+    color: #e7a848;
+    text-align: center;
+    padding: 5px;
+    line-height: 1.2;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.not-found__title {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #e7a848;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 5px;
+    line-height: 1.2;
+}
+.not-found__text {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.2;
+    padding: 5px;
+}
+.page > section {
+    padding-bottom: 240px;
+}
+.not-found__home:hover {
+    color: #e7a848;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+/*      АДАПТАЦИЯ       */
+@media only all and (max-width:425px) {
+    .page > section {
+        padding-bottom: 100px;
+    }
+    .not-found {
+        padding: 150px 0 100px;
+    }
+    .not-found__number {
+        font-size: 170px;
+        padding: 0;
+    }
+}
