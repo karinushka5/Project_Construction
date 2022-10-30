@@ -9,6 +9,9 @@
 .menu_item:nth-child(5) {
     border-bottom: 1px rgba(0, 0,0, 0.2) solid ;
 }
+.header__container {
+    max-height: 66px;
+}
 
 /*   CONTACT    */
 .page > div, .page > section {

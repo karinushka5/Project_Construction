@@ -1004,6 +1004,11 @@ a:hover {
         margin-left: 138px;
     }
 }
+@media only all and (max-width:412px) {
+    .partners__img {
+        margin-left: 134px;
+    }
+}
 @media only all and (max-width:375px) {
     .partners__img {
         margin-left: 119px;
