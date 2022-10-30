@@ -7,7 +7,7 @@ const animItems = document.querySelectorAll('._anim_items');
       const animItem = animItems[index];
       const animItemHeight = animItem.offsetHeight;
       const animItemOffset = offset(animItem).top;
-      const animStart = 3;
+      const animStart = 5;
 
       let animItemPoint = window.innerHeight - animItemHeight / animStart;
       if(animItemHeight > window.innerHeight) {

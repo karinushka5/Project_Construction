@@ -248,9 +248,10 @@
     }
     .howWorking__body {
         padding: 0;
+        flex-direction: column;
     }
-    .howWorking__item:not(:last-child) {
-        padding-right: 40px;
+    .howWorking__item, .howWorking__item:not(:last-child)  {
+        padding-right: 0;
     }
     .howWorking__item  {
         padding-right: 0;
