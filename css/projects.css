@@ -63,7 +63,7 @@ a:hover {
 }
 }
   
-  @media only all and (max-width: 500px) {
+  @media only all and (max-width: 600px) {
   .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
