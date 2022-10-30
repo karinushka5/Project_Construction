@@ -595,6 +595,9 @@ a:hover {
 .footer__bottom_link:hover {
     opacity: 1.0;
 }
+.slick-list {
+    margin-left: 50px;
+}
 /*                 АДАПТАЦИЯ               */
 @media only all and (min-width:1110px) {
     .facts__body {
@@ -632,6 +635,7 @@ a:hover {
         .item_img:nth-child(1) {
             margin-right: 5px;
         }
+        
 }
 @media only all and (max-width:820px) {
     .history_row {
@@ -874,6 +878,9 @@ a:hover {
             -ms-transform: scale(1.04);
                 transform: scale(1.04);
     }
+    .slick-list {
+        margin-left: 40px;
+    }
     
 }
 @media only all and (max-width:600px) {
@@ -929,6 +936,7 @@ a:hover {
     }
     .slick-list {
         height: 100px;
+        margin-left: 0;
     }
 }
 @media only all and (max-width:525px) {
