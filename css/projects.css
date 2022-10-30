@@ -1,5 +1,4 @@
 
-
 /*     HEADER        */
 .menu_item:nth-child(3) {
     border-bottom: none;
@@ -11,7 +10,7 @@
 /*  PROJECTS    */
 .comment__container,
 .partners__container {
-    padding-bottom: 70px;
+    padding-bottom: 0;
 }
 .menu_list {
     -webkit-box-sizing: content-box;
@@ -83,10 +82,6 @@ a:hover {
             flex: 0 1 100%;
     max-width: 100%;
     padding: 15px;
-}
-.comment__container,
-.partners__container {
-    padding-bottom: 30px;
 }
   }
 @media only all and (max-width: 320px) {
