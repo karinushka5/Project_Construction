@@ -70,7 +70,7 @@ a:hover {
     box-shadow: 0px 0px 5px #ffff;
   }
   
-  #myBtn:hover {
+  #myBtn:hover, #myBtn:focus {
     background-color: #555;
     box-shadow: 0px 0px 5px #e7a848;
   }
@@ -170,7 +170,7 @@ a:hover {
     line-height: 1.2;
     color: inherit;
 }
-.menu_link:hover {
+.menu_link:hover, .menu_link:focus {
     color: #e7a848;
 }
 .header_search {
@@ -264,7 +264,7 @@ a:hover {
     color: #2a2a2a;
     max-width: 430px;
 }
-.history_item_text label:hover {
+.history_item_text label:hover, .history_item_text label:focus {
     color: rgba(0, 0,0, 0.6);
 }
     .read-more-radio{
@@ -381,7 +381,7 @@ a:hover {
     cursor: pointer;
 	box-shadow: inset 0 0 0 3px #000;
 }
-.facts__button:active {
+.facts__button:active, .facts__button:focus {
     background-color: #ffffff;
     box-shadow: 0 0px 25px #e7a848;
     transform: translateY(4px);
@@ -439,7 +439,7 @@ a:hover {
 .logo_img {
     display: block;
 }
-.logo_img:hover {
+.logo_img:hover, .logo_img:focus {
     -webkit-transform: scale(1.05);
         -ms-transform: scale(1.05);
             transform: scale(1.05);
@@ -468,7 +468,7 @@ a:hover {
     -o-transition: 0.5s;
     transition: 0.5s;
 }
-.partners__img:hover {
+.partners__img:hover, .partners__img:focus {
     opacity: 0.8;
     -webkit-transform: scale(0.9);
         -ms-transform: scale(0.9);
@@ -526,7 +526,7 @@ a:hover {
     -o-transition: .2s;
     transition: .2s;
 }
-.footer__link:hover {
+.footer__link:hover, .footer__link:focus {
     -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
             transform: scale(1.1);
@@ -586,7 +586,7 @@ a:hover {
     opacity: 0.5;
     color: #e3d5ff;
     display: block;}
-.footer__bottom_link:hover {
+.footer__bottom_link:hover, .footer__bottom_link:focus {
     opacity: 1.0;
 }
 /*                 АДАПТАЦИЯ               */
